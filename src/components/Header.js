@@ -21,9 +21,6 @@ function Header(props){
                 <li><a href="https://www.youtube.com/"><button href="/">GitHub</button></a></li>   
                 <li><button onClick={props.log}><FontAwesomeIcon icon={faCircleUser} />login</button></li>
             </ul>
-            <div>
-                
-            </div>
         </nav>
             <div>
                 <div className="img">
