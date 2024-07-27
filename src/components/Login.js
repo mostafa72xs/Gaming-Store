@@ -12,7 +12,7 @@ import { useLogin } from "./Hooks/context-login";
 function Login(props){
 
 
-    const [setLogined] =useLogin()
+    const [logined ,setLogined] =useLogin()
 
     const { register, handleSubmit, formState: { errors } } =useForm();
     const onSubmit = data => console.log(data);
