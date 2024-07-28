@@ -20,7 +20,7 @@ body {
   max-height: 255px;
 }
 
-code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

@@ -76,7 +76,7 @@ function MainS (props) {
                 <div className='filter'>
                     <p>All Products </p>
                 </div>
-                <div className='gridd'>
+                <div className='grid'>
                     {cards.map((items , index) => {
                     return (
                     <Itemcard
